@@ -4,8 +4,8 @@ else
 	let g:default_toggle_hls_map_key = "<leader>h"
 endif
 
-""" Function to toogle HLS
-function ToggleHLS()
+""" Function to toggle HLS
+function! ToggleHLS()
 	if &l:hlsearch == "1"
 		set nohlsearch
 		echo "Search High lights off"
